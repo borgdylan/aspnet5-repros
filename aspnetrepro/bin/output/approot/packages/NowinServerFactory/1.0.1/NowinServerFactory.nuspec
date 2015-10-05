@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>NowinServerFactory</id>
+    <version>1.0.1</version>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <authors>NowinServerFactory</authors>
+    <owners>NowinServerFactory</owners>
+    <description>NowinServerFactory</description>
+    <dependencies>
+      <group targetFramework="DNX4.5.1">
+        <dependency id="Microsoft.AspNet.Hosting" version="1.0.0-rc1-15710" />
+        <dependency id="Microsoft.AspNet.Owin" version="1.0.0-rc1-15662" />
+        <dependency id="Nowin" version="0.17.0" />
+      </group>
+    </dependencies>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="mscorlib" targetFramework="DNX4.5.1" />
+      <frameworkAssembly assemblyName="System" targetFramework="DNX4.5.1" />
+      <frameworkAssembly assemblyName="System.Core" targetFramework="DNX4.5.1" />
+      <frameworkAssembly assemblyName="Microsoft.CSharp" targetFramework="DNX4.5.1" />
+    </frameworkAssemblies>
+  </metadata>
+</package>

@@ -1,0 +1,15 @@
+{
+  "version": "1.0.1",
+  "dependencies": {
+    "NowinServerFactory": "1.0.1"
+  },
+  "frameworks": {
+    "dnx451": {
+      "dependencies": {
+        "Nowin": "0.17.0"
+      }
+    }
+  },
+  "entryPoint": "NowinServerFactory",
+  "loadable": false
+}

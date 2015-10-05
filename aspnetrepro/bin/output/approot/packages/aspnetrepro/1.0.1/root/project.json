@@ -1,0 +1,20 @@
+{
+  "version": "1.0.1",
+  "webroot": "../../../../../wwwroot",
+  "dependencies": {
+    "aspnetrepro": "1.0.1"
+  },
+  "commands": {
+    "web": "Microsoft.AspNet.Hosting --server NowinServerFactory --port 5001"
+  },
+  "frameworks": {
+    "dnx451": {
+      "frameworkAssemblies": {},
+      "dependencies": {
+        "NowinServerFactory": "1.0.1"
+      }
+    }
+  },
+  "entryPoint": "aspnetrepro",
+  "loadable": false
+}

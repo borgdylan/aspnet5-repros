@@ -1,0 +1,21 @@
+﻿{
+  "version": "1.0.1",
+  "webroot":"wwwroot",
+  "dependencies": {
+  	"Microsoft.AspNet.StaticFiles": "1.0.0-*",
+  	"Microsoft.AspNet.Mvc": "6.0.0-*",
+  	"Microsoft.AspNet.Hosting": "1.0.0-*"
+  },
+  "commands": {
+  	"web": "Microsoft.AspNet.Hosting --server NowinServerFactory --port 5001"
+  },
+  "frameworks": {
+    "dnx451": {
+    	"frameworkAssemblies": {
+      },
+      "dependencies": {
+      	"NowinServerFactory": "1.0.1"
+      }
+    }
+  }
+}
