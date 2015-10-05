@@ -14,6 +14,7 @@ public class Startup
 	
 	public void Configure(IApplicationBuilder app)
 	{
+		app.UseDeveloperExceptionPage();
 		app.UseStaticFiles();
 		app.UseMvc(routes =>
             {

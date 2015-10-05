@@ -997,7 +997,7 @@
     },
     "NowinServerFactory/1.0.1": {
       "type": "package",
-      "sha512": "9GGa12xtgnO9T4Vum/kY9i2nNQW/q63XT97gJfVVcSWBzW1n7TS3KWyrO0CQmyKdmYkhUdAi16RtIK5xjDegSg==",
+      "sha512": "VhcQpc43AZKwfmGuSGllW5Dnq5j7m6x4M+fgbwWEiUeEXOlNN+Qx2v3mfNa9bsZWkPFJlBewlixrzugQOC2XvA==",
       "files": [
         "lib/dnx451/NowinServerFactory.dll",
         "lib/dnx451/NowinServerFactory.xml",

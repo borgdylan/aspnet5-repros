@@ -126,6 +126,31 @@
           "lib/dnx451/Microsoft.AspNet.DataProtection.Abstractions.dll": {}
         }
       },
+      "Microsoft.AspNet.Diagnostics/1.0.0-rc1-15791": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNet.Diagnostics.Abstractions": "1.0.0-rc1-15791",
+          "Microsoft.AspNet.FileProviders.Physical": "1.0.0-rc1-15651",
+          "Microsoft.AspNet.Http.Extensions": "1.0.0-rc1-15662",
+          "Microsoft.AspNet.WebUtilities": "1.0.0-rc1-15662",
+          "Microsoft.Dnx.Compilation.Abstractions": "1.0.0-rc1-15798",
+          "Microsoft.Framework.Logging.Abstractions": "1.0.0-rc1-15644",
+          "Microsoft.Framework.OptionsModel": "1.0.0-rc1-15642",
+          "Microsoft.Framework.WebEncoders.Core": "1.0.0-rc1-15662"
+        },
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "mscorlib",
+          "System",
+          "System.Core"
+        ],
+        "compile": {
+          "lib/dnx451/Microsoft.AspNet.Diagnostics.dll": {}
+        },
+        "runtime": {
+          "lib/dnx451/Microsoft.AspNet.Diagnostics.dll": {}
+        }
+      },
       "Microsoft.AspNet.Diagnostics.Abstractions/1.0.0-rc1-15791": {
         "type": "package",
         "frameworkAssemblies": [
@@ -1444,6 +1469,31 @@
         },
         "runtime": {
           "lib/dnx451/Microsoft.AspNet.DataProtection.Abstractions.dll": {}
+        }
+      },
+      "Microsoft.AspNet.Diagnostics/1.0.0-rc1-15791": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNet.Diagnostics.Abstractions": "1.0.0-rc1-15791",
+          "Microsoft.AspNet.FileProviders.Physical": "1.0.0-rc1-15651",
+          "Microsoft.AspNet.Http.Extensions": "1.0.0-rc1-15662",
+          "Microsoft.AspNet.WebUtilities": "1.0.0-rc1-15662",
+          "Microsoft.Dnx.Compilation.Abstractions": "1.0.0-rc1-15798",
+          "Microsoft.Framework.Logging.Abstractions": "1.0.0-rc1-15644",
+          "Microsoft.Framework.OptionsModel": "1.0.0-rc1-15642",
+          "Microsoft.Framework.WebEncoders.Core": "1.0.0-rc1-15662"
+        },
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "mscorlib",
+          "System",
+          "System.Core"
+        ],
+        "compile": {
+          "lib/dnx451/Microsoft.AspNet.Diagnostics.dll": {}
+        },
+        "runtime": {
+          "lib/dnx451/Microsoft.AspNet.Diagnostics.dll": {}
         }
       },
       "Microsoft.AspNet.Diagnostics.Abstractions/1.0.0-rc1-15791": {
@@ -2766,6 +2816,31 @@
           "lib/dnx451/Microsoft.AspNet.DataProtection.Abstractions.dll": {}
         }
       },
+      "Microsoft.AspNet.Diagnostics/1.0.0-rc1-15791": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNet.Diagnostics.Abstractions": "1.0.0-rc1-15791",
+          "Microsoft.AspNet.FileProviders.Physical": "1.0.0-rc1-15651",
+          "Microsoft.AspNet.Http.Extensions": "1.0.0-rc1-15662",
+          "Microsoft.AspNet.WebUtilities": "1.0.0-rc1-15662",
+          "Microsoft.Dnx.Compilation.Abstractions": "1.0.0-rc1-15798",
+          "Microsoft.Framework.Logging.Abstractions": "1.0.0-rc1-15644",
+          "Microsoft.Framework.OptionsModel": "1.0.0-rc1-15642",
+          "Microsoft.Framework.WebEncoders.Core": "1.0.0-rc1-15662"
+        },
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "mscorlib",
+          "System",
+          "System.Core"
+        ],
+        "compile": {
+          "lib/dnx451/Microsoft.AspNet.Diagnostics.dll": {}
+        },
+        "runtime": {
+          "lib/dnx451/Microsoft.AspNet.Diagnostics.dll": {}
+        }
+      },
       "Microsoft.AspNet.Diagnostics.Abstractions/1.0.0-rc1-15791": {
         "type": "package",
         "frameworkAssemblies": [
@@ -4058,6 +4133,20 @@
         "Microsoft.AspNet.DataProtection.Abstractions.nuspec"
       ]
     },
+    "Microsoft.AspNet.Diagnostics/1.0.0-rc1-15791": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "MJAkKgk7ilSTwEtw9a7txDNloMV9uZqjBLs4/CjB+8eMDtQBzoMnoHP6iEHdjYk0hN59jqaRFjcWuMgB7iW5PQ==",
+      "files": [
+        "lib/dnx451/Microsoft.AspNet.Diagnostics.dll",
+        "lib/dnx451/Microsoft.AspNet.Diagnostics.xml",
+        "lib/dnxcore50/Microsoft.AspNet.Diagnostics.dll",
+        "lib/dnxcore50/Microsoft.AspNet.Diagnostics.xml",
+        "Microsoft.AspNet.Diagnostics.1.0.0-rc1-15791.nupkg",
+        "Microsoft.AspNet.Diagnostics.1.0.0-rc1-15791.nupkg.sha512",
+        "Microsoft.AspNet.Diagnostics.nuspec"
+      ]
+    },
     "Microsoft.AspNet.Diagnostics.Abstractions/1.0.0-rc1-15791": {
       "type": "package",
       "serviceable": true,
@@ -5149,7 +5238,8 @@
     "": [
       "Microsoft.AspNet.StaticFiles >= 1.0.0-*",
       "Microsoft.AspNet.Mvc >= 6.0.0-*",
-      "Microsoft.AspNet.Hosting >= 1.0.0-*"
+      "Microsoft.AspNet.Hosting >= 1.0.0-*",
+      "Microsoft.AspNet.Diagnostics >= 1.0.0-*"
     ],
     "DNX,Version=v4.5.1": [
       "NowinServerFactory >= 1.0.1"
