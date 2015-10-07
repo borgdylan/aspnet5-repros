@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Microsoft.AspNet.Mvc.Razor</id>
+    <version>6.0.0-rc1-15975</version>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <authors>Microsoft</authors>
+    <owners>Microsoft</owners>
+    <description>The Razor view engine for ASP.NET MVC.</description>
+    <dependencies>
+      <group targetFramework="DNX4.5.1">
+        <dependency id="Microsoft.AspNet.Mvc.Razor.Host" version="6.0.0-rc1-15975" />
+        <dependency id="Microsoft.AspNet.Mvc.ViewFeatures" version="6.0.0-rc1-15975" />
+        <dependency id="Microsoft.AspNet.Razor.Runtime.Precompilation" version="4.0.0-rc1-15730" />
+        <dependency id="Microsoft.AspNet.PageExecutionInstrumentation.Interfaces" version="1.0.0-rc1-15975" />
+        <dependency id="Microsoft.Dnx.Compilation.CSharp.Common" version="1.0.0-rc1-15813" />
+        <dependency id="Microsoft.Dnx.Compilation.CSharp.Abstractions" version="1.0.0-rc1-15813" />
+      </group>
+      <group targetFramework="DNXCore5.0">
+        <dependency id="Microsoft.AspNet.Mvc.Razor.Host" version="6.0.0-rc1-15975" />
+        <dependency id="Microsoft.AspNet.Mvc.ViewFeatures" version="6.0.0-rc1-15975" />
+        <dependency id="Microsoft.AspNet.Razor.Runtime.Precompilation" version="4.0.0-rc1-15730" />
+        <dependency id="Microsoft.AspNet.PageExecutionInstrumentation.Interfaces" version="1.0.0-rc1-15975" />
+        <dependency id="Microsoft.Dnx.Compilation.CSharp.Common" version="1.0.0-rc1-15813" />
+        <dependency id="Microsoft.Dnx.Compilation.CSharp.Abstractions" version="1.0.0-rc1-15813" />
+        <dependency id="System.Text.Encoding" version="4.0.11-beta-23326" />
+        <dependency id="System.Threading.Tasks.Parallel" version="4.0.1-beta-23326" />
+      </group>
+    </dependencies>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="System.Collections" targetFramework="DNX4.5.1" />
+      <frameworkAssembly assemblyName="System.IO" targetFramework="DNX4.5.1" />
+      <frameworkAssembly assemblyName="System.Runtime" targetFramework="DNX4.5.1" />
+      <frameworkAssembly assemblyName="System.Text.Encoding" targetFramework="DNX4.5.1" />
+      <frameworkAssembly assemblyName="System.Threading.Tasks" targetFramework="DNX4.5.1" />
+      <frameworkAssembly assemblyName="mscorlib" targetFramework="DNX4.5.1" />
+      <frameworkAssembly assemblyName="System" targetFramework="DNX4.5.1" />
+      <frameworkAssembly assemblyName="System.Core" targetFramework="DNX4.5.1" />
+      <frameworkAssembly assemblyName="Microsoft.CSharp" targetFramework="DNX4.5.1" />
+    </frameworkAssemblies>
+  </metadata>
+</package>

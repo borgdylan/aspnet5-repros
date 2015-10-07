@@ -9,8 +9,8 @@
     <description>NowinServerFactory</description>
     <dependencies>
       <group targetFramework="DNX4.5.1">
-        <dependency id="Microsoft.AspNet.Hosting" version="1.0.0-rc1-15710" />
-        <dependency id="Microsoft.AspNet.Owin" version="1.0.0-rc1-15662" />
+        <dependency id="Microsoft.AspNet.Hosting" version="1.0.0-rc1-15726" />
+        <dependency id="Microsoft.AspNet.Owin" version="1.0.0-rc1-15781" />
         <dependency id="Nowin" version="0.17.0" />
       </group>
     </dependencies>

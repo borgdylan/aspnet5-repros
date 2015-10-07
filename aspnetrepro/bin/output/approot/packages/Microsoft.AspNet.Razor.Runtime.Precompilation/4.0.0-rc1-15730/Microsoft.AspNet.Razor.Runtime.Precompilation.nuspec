@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Microsoft.AspNet.Razor.Runtime.Precompilation</id>
+    <version>4.0.0-rc1-15730</version>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <authors>Microsoft</authors>
+    <owners>Microsoft</owners>
+    <description>Supports tag helper resolution during precompilation.</description>
+    <dependencies>
+      <group targetFramework="DNX4.5.1">
+        <dependency id="Microsoft.AspNet.Razor.Runtime" version="4.0.0-rc1-15730" />
+        <dependency id="Microsoft.Dnx.Compilation.CSharp.Abstractions" version="1.0.0-rc1-15813" />
+      </group>
+      <group targetFramework="DNXCore5.0">
+        <dependency id="Microsoft.AspNet.Razor.Runtime" version="4.0.0-rc1-15730" />
+        <dependency id="Microsoft.Dnx.Compilation.CSharp.Abstractions" version="1.0.0-rc1-15813" />
+        <dependency id="System.Collections.Concurrent" version="4.0.11-beta-23326" />
+        <dependency id="System.Linq.Expressions" version="4.0.11-beta-23326" />
+      </group>
+    </dependencies>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="System.Runtime" targetFramework="DNX4.5.1" />
+      <frameworkAssembly assemblyName="mscorlib" targetFramework="DNX4.5.1" />
+      <frameworkAssembly assemblyName="System" targetFramework="DNX4.5.1" />
+      <frameworkAssembly assemblyName="System.Core" targetFramework="DNX4.5.1" />
+      <frameworkAssembly assemblyName="Microsoft.CSharp" targetFramework="DNX4.5.1" />
+    </frameworkAssemblies>
+  </metadata>
+</package>

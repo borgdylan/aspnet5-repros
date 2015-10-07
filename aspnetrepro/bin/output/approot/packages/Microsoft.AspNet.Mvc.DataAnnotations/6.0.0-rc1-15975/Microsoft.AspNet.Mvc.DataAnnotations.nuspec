@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Microsoft.AspNet.Mvc.DataAnnotations</id>
+    <version>6.0.0-rc1-15975</version>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <authors>Microsoft</authors>
+    <owners>Microsoft</owners>
+    <description>Metadata and Validation using System.ComponentModel.DataAnnotations for the MVC runtime</description>
+    <dependencies>
+      <group targetFramework="DNX4.5.1">
+        <dependency id="Microsoft.AspNet.Mvc.Core" version="6.0.0-rc1-15975" />
+        <dependency id="Microsoft.Extensions.Localization" version="1.0.0-rc1-15712" />
+      </group>
+      <group targetFramework="DNXCore5.0">
+        <dependency id="Microsoft.AspNet.Mvc.Core" version="6.0.0-rc1-15975" />
+        <dependency id="Microsoft.Extensions.Localization" version="1.0.0-rc1-15712" />
+        <dependency id="System.ComponentModel.Annotations" version="4.0.11-beta-23326" />
+      </group>
+    </dependencies>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="System.ComponentModel.DataAnnotations" targetFramework="DNX4.5.1" />
+      <frameworkAssembly assemblyName="mscorlib" targetFramework="DNX4.5.1" />
+      <frameworkAssembly assemblyName="System" targetFramework="DNX4.5.1" />
+      <frameworkAssembly assemblyName="System.Core" targetFramework="DNX4.5.1" />
+      <frameworkAssembly assemblyName="Microsoft.CSharp" targetFramework="DNX4.5.1" />
+    </frameworkAssemblies>
+  </metadata>
+</package>

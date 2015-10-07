@@ -1,7 +1,7 @@
 ﻿using System;
 using Microsoft.AspNet.Mvc;
 using Microsoft.AspNet.Builder;
-using Microsoft.Framework.DependencyInjection;
+using Microsoft.Extensions.DependencyInjection;
 using System.Collections.Generic;
 
 public class Startup

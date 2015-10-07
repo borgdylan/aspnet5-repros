@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Microsoft.Extensions.Localization</id>
+    <version>1.0.0-rc1-15712</version>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <authors>Microsoft</authors>
+    <owners>Microsoft</owners>
+    <description>Application localization services.</description>
+    <dependencies>
+      <group targetFramework="DNX4.5.1">
+        <dependency id="Microsoft.Dnx.Runtime.Abstractions" version="1.0.0-rc1-15813" />
+        <dependency id="Microsoft.Extensions.DependencyInjection.Abstractions" version="1.0.0-rc1-15657" />
+        <dependency id="Microsoft.Extensions.Localization.Abstractions" version="1.0.0-rc1-15712" />
+        <dependency id="Microsoft.Extensions.OptionsModel" version="1.0.0-rc1-15656" />
+      </group>
+      <group targetFramework="DNXCore5.0">
+        <dependency id="Microsoft.Dnx.Runtime.Abstractions" version="1.0.0-rc1-15813" />
+        <dependency id="Microsoft.Extensions.DependencyInjection.Abstractions" version="1.0.0-rc1-15657" />
+        <dependency id="Microsoft.Extensions.Localization.Abstractions" version="1.0.0-rc1-15712" />
+        <dependency id="Microsoft.Extensions.OptionsModel" version="1.0.0-rc1-15656" />
+        <dependency id="Microsoft.CSharp" version="4.0.1-beta-23326" />
+        <dependency id="System.Collections" version="4.0.11-beta-23326" />
+        <dependency id="System.Collections.Concurrent" version="4.0.11-beta-23326" />
+        <dependency id="System.Globalization" version="4.0.11-beta-23326" />
+        <dependency id="System.Linq" version="4.0.1-beta-23326" />
+        <dependency id="System.Resources.ReaderWriter" version="4.0.0-beta-23326" />
+        <dependency id="System.Resources.ResourceManager" version="4.0.1-beta-23326" />
+        <dependency id="System.Threading" version="4.0.11-beta-23326" />
+      </group>
+    </dependencies>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="mscorlib" targetFramework="DNX4.5.1" />
+      <frameworkAssembly assemblyName="System" targetFramework="DNX4.5.1" />
+      <frameworkAssembly assemblyName="System.Core" targetFramework="DNX4.5.1" />
+      <frameworkAssembly assemblyName="Microsoft.CSharp" targetFramework="DNX4.5.1" />
+    </frameworkAssemblies>
+  </metadata>
+</package>

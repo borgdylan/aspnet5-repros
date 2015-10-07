@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 //using Microsoft.AspNet.Builder;
 using Microsoft.AspNet.Hosting.Server;
 using Microsoft.AspNet.Owin;
-using Microsoft.Framework.Configuration;
+using Microsoft.Extensions.Configuration;
 using Microsoft.AspNet.Http.Features;
 //using Microsoft.AspNet.Http;
 using Nowin;
@@ -55,6 +55,7 @@ namespace NowinServerFactory
 			public NowinServerInformation(ServerBuilder builder)
 			{
 				Builder = builder;
+				builder.SetExecutionContextFlow(ExecutionContextFlow.Flow);
 			}
 
 			public ServerBuilder Builder { get; private set; }

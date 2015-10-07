@@ -9,10 +9,10 @@
     <description>aspnetrepro</description>
     <dependencies>
       <group targetFramework="DNX4.5.1">
-        <dependency id="Microsoft.AspNet.StaticFiles" version="1.0.0-rc1-15683" />
-        <dependency id="Microsoft.AspNet.Mvc" version="6.0.0-rc1-15954" />
-        <dependency id="Microsoft.AspNet.Hosting" version="1.0.0-rc1-15710" />
-        <dependency id="Microsoft.AspNet.Diagnostics" version="1.0.0-rc1-15791" />
+        <dependency id="Microsoft.AspNet.StaticFiles" version="1.0.0-rc1-15699" />
+        <dependency id="Microsoft.AspNet.Mvc" version="6.0.0-rc1-15975" />
+        <dependency id="Microsoft.AspNet.Hosting" version="1.0.0-rc1-15726" />
+        <dependency id="Microsoft.AspNet.Diagnostics" version="1.0.0-rc1-15808" />
         <dependency id="NowinServerFactory" version="1.0.1" />
       </group>
     </dependencies>
