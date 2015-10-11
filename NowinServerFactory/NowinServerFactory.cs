@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 //using Microsoft.AspNet.Builder;
 using Microsoft.AspNet.Hosting.Server;
 using Microsoft.AspNet.Owin;
-using Microsoft.Framework.Configuration;
+using Microsoft.Extensions.Configuration;
 using Microsoft.AspNet.Http.Features;
 //using Microsoft.AspNet.Http;
 using Nowin;
@@ -23,7 +23,7 @@ namespace NowinServerFactory
 
 		private Task HandleRequest(IDictionary<string, object> env)
 		{
-			var ofc = new OwinFeatureCollection(env);
+			var ofc = new FeatureCollection(new OwinFeatureCollection(env));
 			var t = _callback.Invoke(ofc);
 			return t;
 			//return TaskHelpers.Await(t, () => {Console.WriteLine("done");}, (ex) => {Console.WriteLine("failed with " + ex.ToString());});
