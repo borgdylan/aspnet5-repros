@@ -5,7 +5,7 @@
     "aspnetrepro": "1.0.1"
   },
   "commands": {
-    "web": "Microsoft.AspNet.Hosting --server NowinServerFactory --port 5001"
+    "web": "Microsoft.AspNet.Hosting --server NowinServerFactory --port 5011"
   },
   "frameworks": {
     "dnx451": {

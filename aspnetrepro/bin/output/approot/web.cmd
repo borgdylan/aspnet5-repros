@@ -1,6 +1,6 @@
 
 @echo off
-SET DNX_FOLDER=dnx-clr-win-x64.1.0.0-rc1-15798
+SET DNX_FOLDER=dnx-clr-win-x64.1.0.0-rc1-15837
 SET "LOCAL_DNX=%~dp0runtimes\%DNX_FOLDER%\bin\dnx.exe"
 
 IF EXIST %LOCAL_DNX% (

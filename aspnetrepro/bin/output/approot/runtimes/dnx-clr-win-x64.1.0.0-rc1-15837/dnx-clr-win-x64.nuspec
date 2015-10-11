@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/10/nuspec.xsd">
+  <metadata>
+    <id>dnx-clr-win-x64</id>
+    <version>1.0.0-rc1-15837</version>
+    <authors>Microsoft</authors>
+    <owners>Microsoft</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Microsoft .NET Execution environment for Desktop CLR on Windows x64</description>
+  </metadata>
+</package>

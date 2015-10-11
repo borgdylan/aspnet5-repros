@@ -55,6 +55,7 @@ namespace NowinServerFactory
 			public NowinServerInformation(ServerBuilder builder)
 			{
 				Builder = builder;
+				builder.SetExecutionContextFlow(ExecutionContextFlow.Flow);
 			}
 
 			public ServerBuilder Builder { get; private set; }
